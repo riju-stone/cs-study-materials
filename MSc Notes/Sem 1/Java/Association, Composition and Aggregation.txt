@@ -1,0 +1,71 @@
+Association
+Association refers to the relationship between multiple objects. 
+It refers to how objects are related to each other and how they are using each other's functionality. 
+Composition and aggregation are two types of association.
+
+Composition
+The composition is the strong type of association. 
+An association is said to composition if an Object owns another Object and that object cannot exist without the owner object. 
+Consider the case of Human having a heart. Here Human object contains the heart and heart cannot exist without Human.
+
+Aggregation
+Aggregation is a weak association. 
+An association is said to be aggregation if both Objects can exist independently. 
+For example, a Team object and a Player object. 
+The team contains multiple players but a player can exist without a team.
+
+Example of Composition
+
+//Car must have Engine
+public class Car {
+   //engine is a mandatory part of the car
+   private final Engine engine;
+
+   public Car () {
+      engine = new Engine();
+   }
+}
+
+//Engine Object
+
+class Engine {}
+Example of Aggregation
+//Team
+public class Team {      
+   //players can be 0 or more
+   private List players;
+
+   public Car () {
+      players = new ArrayList();
+   }
+}
+//Player Object
+class Player {}
+
+Composition and aggregation are two types of association which is used to represent relationships between two classes.
+ 
+In Aggregation , parent and child entity maintain Has-A relationship but both can also exist independently. 
+We can use parent and child entity independently. Any modification in the parent entity will not impact the child entity or vice versa. 
+In the UML diagram, aggregation is denoted by an empty diamond, which shows their obvious difference in terms of strength of the relationship.
+
+In Composition, parent owns child entity so child entity can’t exist without parent entity. 
+We can’t directly or independently access child entity. In the UML diagram, composition is denoted by a filled diamond. 
+
+Sr. No. 	Key			Composition				Aggregation
+
+1 		Basic 			Composition(mixture) is a way to 
+					wrap simple objects or data types 
+					into a single unit			Aggregation(collection) differs 
+										from ordinary composition in that 
+										it does not imply ownership
+
+2		Relationship 		In composition , parent entity 	
+					owns child entity.			In Aggregation , parent Has-A relationship 
+										with child entity
+
+3		UML Notation 		It is denoted by a filled diamond. 	It is denoted by an empty diamond. 
+
+4. 		Life cycle 		Child doesn’t have their own 
+					life time 				Child can have their own life time 
+
+5.		Association 		It is a strong association 		It is a weak association 

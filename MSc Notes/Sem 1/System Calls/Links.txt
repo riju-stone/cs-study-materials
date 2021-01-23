@@ -1,0 +1,7 @@
+OpenMP - https://computing.llnl.gov/tutorials/openMP/
+
+	 http://www.bowdoin.edu/~ltoma/teaching/cs3225-GIS/fall17/Lectures/openmp.html
+
+I/O System Calls - http://web.eecs.utk.edu/~huangj/cs360/360/notes/Syscall-Intro/lecture.html
+
+		   
