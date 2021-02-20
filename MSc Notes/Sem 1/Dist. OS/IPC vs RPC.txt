@@ -1,0 +1,11 @@
+* Inter-process communication or interprocess communication (IPC) refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data. 
+
+* Typically, applications can use IPC, categorized as clients and servers, where the client requests data and the server responds to client requests.
+
+* The information to be shared is placed in a common memory area/address space that is accessible to all the processors involed in an IPC
+
+* A remote procedure call (RPC) is when a computer program causes a procedure (subroutine) to execute in a different address space (commonly on another computer on a shared network), which is coded as if it were a normal (local) procedure call, without the programmer explicitly coding the details for the remote interaction.
+
+* A RPC uses client-server model and is a higher level IPC system
+
+* In case of RPC, the caller and callee processes have disjoint address spaces (possibly on different computers).
