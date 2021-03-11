@@ -1,0 +1,6 @@
+1. Color Models - https://www.wigglepixel.nl/en/blog/what-are-color-models/#:~:text=A%20color%20model%20is%20a,3%20axes%2C%20so%20in%203D.
+		  https://programmingdesignsystems.com/color/color-models-and-color-spaces/index.html
+
+2. Color Spaces and Profiles - https://www.wigglepixel.nl/blog/wat-zijn-color-spaces-color-profiles-en-gamma-correctie
+
+3. JPEG Image Compression Systems - https://www.ece.ucdavis.edu/cerl/reliablejpeg/compression/
